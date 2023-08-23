@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <title>Utilities Bootstrap 5</title>
+</head>
+
+<body style="height: 5000px;">
+    <div class="container m-5">
+
+        <h4 class="text-center">Utilities Bootstrap 5</h4>
+        <h2 class="text-center">Dispaly, Float And Position</h2>
+        <hr>
+
+
+        <!-- Lets Begin -->
+
+
+
+        <h3 class="text-primary">Display</h3>
+        <p>Bagaimana Perilaku dari Display..?</p>
+        <!-- Div & Span -> Pengelompokan -->
+
+        <span></span>
+        <div></div>
+        <!-- 
+        Popular Display : 
+        1. Inline
+        2. Block
+        3. inline-block
+        4. flex
+        5. Grid
+        6 . etc -->
+
+
+        <!-- 1. Inline -->
+
+        <!-- Span Display = Inline -->
+        <!-- a. Inline tidak menambahkan baris ketika ditambahkan elment yang memiliki display inline di dekatnya. (Span) -->
+        <span>Vin</span>
+        <span>Mora</span>
+        <!-- b. lebar dan tingginya sesuai element didalamnya  -->
+        <span class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur amet ut quisquam omnis neque ipsam velit earum facere recusandae ad!</span>
+        <!-- c. tinggi dan lebar tidak dapat di atur -->
+        <br>
+        <span class="bg-success" style="height: 80px; width: 80px;">Ananda</span>
+        <!-- d. margin & pading hanya mempengaruhi element secara horizontal tidak Vertical -->
+        <span class="bg-info p-3 m-3">Kelvin Mora</span>
+        <br>
+        <br>
+        <hr>
+
+        <!-- 2. Block -->
+        <!--Div Display = Block -->
+
+        <!-- a. menambahkan baris baru ketika ditambahkan element HTML yang memiliki display block -->
+        <div>Kelvin</div>
+        <div>Mora</div>
+        <!-- b. dapat di atur lebar dan tigginya, tapi jika tidak di atur secara default lebarnya akan memenuhi atau sesuai dengan element pembungkusnya -->
+        <div class="bg-danger" style="height: 30px;width: 280px;">Lebar dan tinggi dapat diatur</div>
+
+        <!-- 3. Inline-Block -->
+        <div class="d-inline-block bg bg-success"> inline-block1</div>
+        <div class="d-inline-block bg bg-success" style="height: 30px; width: 150px; "> inline-block2</div>
+        <br>
+        <br>
+        <hr>
+        <!-- Display Inline-Block -->
+        <!-- a. Berperilaku seperti inline & Block -->
+            <div class="d-inline"> Vinmora</div>
+            <div class="d-inline"> Vinmora</div>
+            <span class="d-block"> makan kuda</span>
+            <br>    
+            <br>    
+        <!-- Merubah Display di bootstarp 5 -->
+        <h3 class="text-primary">Float</h3>
+        <p>Bagaimana Perilaku dari Float..?</p>
+
+        <!-- 4. Float -->
+        <!-- 1. Mangatur Posisi pada sebuah element. -->
+        <div class="bg-primary clearfix" style=" width: 500px; background-color: coral;">
+            <div class="bg-success float-end" style=" height: 100px; width: 100px;">elment1</div>
+            <div class="bg-success float-end" style=" height: 100px; width: 100px;">elment2</div>
+            <div class="bg-success float-end" style=" height: 100px; width: 100px;">elment3</div>
+        </div>
+        <!-- 2. dipaksa berada di sebelah kanan atau kiri pada element pembungkusnya atau istilahnya mengambang. -->
+        <!-- 3. prilakunya berbeda dengan alignment. -->
+        <!-- 4. Clear fix -> membersihkan float -> collaps -->
+
+        <br>
+        <h3 class="text-primary">Position</h3>
+        <p>Bagaimana Perilaku dari Position..?</p>
+        <!-- 5. Position -->
+
+        <!-- a. Static -->
+        <div style="width: 500px; height: 500px;" class="bg-info position-relative">
+            <div style="height: 100px; width: 100px;" class="bg-warning position-relative top-50 start-50"> Element1</div>
+            <div style="height: 100px; width: 100px;" class="bg-success position-absolute start-50"> Element2</div>
+            <div style="height: 100px; width: 100px;" class="bg-danger position-fixed top-50"> Element3</div>
+        </div>
+        <!-- b. Retalive -->
+        <!-- c. Absolute -->
+        <!-- d. Fixed -->
+    </div>
+
+    <!-- End Session -->
+    <!--Thank You -->
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Popper Javascript -->
+    <script src="js/popper.min.js"></script>
+</body>
+
+</html>
+Utilities Bootstrap ... loat & Position.html
+Displaying Utilities Bootstrap 5 - Display, Float & Position.html.
